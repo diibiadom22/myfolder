@@ -1,0 +1,207 @@
+/* this is for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* this is a universal selector for all text on the html document */
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* this is for custom fonts */
+/* @font-face {
+    font-family: "myhtml-font";
+    src: url("./fonts/MonumentExtended-Ultrabold.otf");
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+   header {
+    background:#FFF ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav ul li a {
+    color: #1e0e62;
+    text-decoration: none;
+    /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px */
+
+     margin: 2px 40px;
+    line-height: 10px;
+}
+
+.site-nav ul li {
+    list-style: none;
+}
+
+.btn {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(146, 142, 142);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: #7ffd;
+    cursor: pointer;
+}
+
+.logo {
+   margin-top: 22PX;
+    }
+
+.hero-part{
+   text-align:center;
+  color:#1e0e62;
+  font-size: 19px;
+}
+
+ h1{
+ font-size: 50px;
+ }
+ 
+
+.hero-btn  {
+
+   border:0;
+   border-radius: 80px;
+    padding: 15px;
+    margin: 120px 530px; 
+    background-color:#40e0d0;
+    text-align: center;
+   color:#fff;
+
+}
+
+ p{
+  position: relative;
+  bottom: 80px;
+    text-align:center;
+   color:#40e0d0;
+} 
+
+      /* .footer{ 
+    bottom:0;
+    left:0;
+    background-color:#ccccff ;
+    z-index: 40;
+    width: 1400px;
+    padding: 30px;
+    position:absolute;
+      }  */
+   .content h5{
+   text-align: center;
+    margin-top: 200px;
+    }
+ .content h4{
+     text-align: center;
+     font-size: 30px;
+     margin-top: 200px;
+  }
+
+.features{
+  margin: 100px  1000px ;
+}
+
+ .design p{
+  text-align : center;
+ font-size: 35px;
+ color: #1e0e62;
+margin-top: 200px;
+}
+
+.flexer{
+ display: flex;
+ justify-content: space-between;
+}
+
+ .fo1{
+  position: relative;
+ left: 160px;
+}
+
+.fo2{
+position:relative;
+left: 150px;
+}
+
+.fo3{
+position:relative;
+left: 145px;
+}
+h6{
+  font-size: 18px;
+  color: #1e0e62;
+  margin-left: 145px;
+  }
+
+p{
+color: #1e0e62;
+margin: 20px  80px;
+}
+
+.cat h2{
+ text-align:center;
+ font-size: 50px;
+ color: #1e0e62;
+}
+
+.cool{
+width: 490px;
+height: 50px;
+border: 1pxsolid #1e0e62;
+border-radius: 35px;
+margin-left: 500px;
+
+}
+
+
+.butt button{
+background-color:#40e0d0;
+height: 35px;
+width: 40px;
+border:1pxsolid #1e0e62;
+border-radius: 12px;
+margin-left: 490px;
+margin-bottom:38px; 
+}
+
+.bott button{
+background-color:#40e0d0;
+height: 50px;
+width: 490px;
+border: 1pxsolid #1e0e62;
+border-radius:30px ;
+margin-left:490px ;
+margin-bottom:38px ;
+font-size: 20px;
+color:#ffffff;
+}
+
+.down h6{
+font-size:15px ;
+
+}
+
+
+
+
+
+
+
+
+
+
